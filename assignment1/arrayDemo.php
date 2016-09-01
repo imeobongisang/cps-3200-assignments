@@ -4,6 +4,7 @@
   <?php
   $simpleArray = array();
 
+  print "<table style=\"width:100\"> <tr>";
   for($i = 0; $i < $_POST["arraysize"]; $i++) {
     $simpleArray[$i] = rand($_POST["minvalue"],$_POST["maxvalue"]);
     $calc1 = sqrt(abs($simpleArray[$i]));
