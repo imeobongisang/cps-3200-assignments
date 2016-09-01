@@ -28,8 +28,9 @@
     print "<p>Sign of Random Element: $calc4<p>" ;
     print "<p>Circle Area Calculation: $calc5<p>" ;
     print "<p>Volume Area Calculation: $calc6<p>" ;
-
+    print "<hr>";
    }
+
   ?>
 </body>
 </html>
