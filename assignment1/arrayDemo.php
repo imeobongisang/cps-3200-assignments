@@ -7,22 +7,23 @@
   <div id="back"><a href="http://localhost:8888/assignment1/arrayDemo.html">Back to form</a></div>
 
   <?php
+  if(!is_numeric($_POST["arraysize"])|| !is_numeric($_POST["minvalue"]) || !is_numeric($_POST["maxvalue"])) {
+    print "Error. Invalid form data. Please enter integer data into every field.";
+    return;
+  }
   if(($_POST["arraysize"]) < 1 ) {
     print "Please enter a valid array size.";
     return ;
   }
   if(($_POST["arraysize"] > 200)) {
-    print "Please a smaller array size.";
+    print "Please enter a smaller array size.";
     return ;
   }
   if($_POST["minvalue"] >$_POST["maxvalue"]) {
     print "Error. Minimum value must be larger than maximum value.";
     return ;
   }
-  if(!is_numeric($_POST["arraysize"])|| !is_numeric($_POST["minvalue"]) || !is_numeric($_POST["maxvalue"])) {
-    print "Error. Invalid form data. Please enter integer data into every field.";
-    return;
-  }
+
   if(empty($_POST["arraysize"]) || empty($_POST["minvalue"]) || empty($_POST["maxvalue"])) {
     print "Error. Invalid form data. Please enter integer data into every field.";
     return ;
