@@ -11,11 +11,11 @@
     print "Error. Invalid form data. Please enter integer data into every field.";
     return;
   }
-  if(($_POST["arraysize"]) < 1 ) {
+  if($_POST["arraysize"] < 1 ) {
     print "Please enter a valid array size.";
     return ;
   }
-  if(($_POST["arraysize"] > 200)) {
+  if($_POST["arraysize"] > 200) {
     print "Please enter a smaller array size.";
     return ;
   }
