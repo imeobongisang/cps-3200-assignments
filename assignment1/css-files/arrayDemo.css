@@ -1,6 +1,5 @@
 table, th, td {
   border: 1px solid black;
-  padding:auto;
 }
 th {
   background: silver;
@@ -12,10 +11,11 @@ td {
   width:12px;
   margin: 0 auto;
 }
-#table {
-  clear:right;
-  display: block;
-}
+
 #back {
   text-decoration: none;
+}
+
+#submit {
+  color: green;
 }
