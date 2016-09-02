@@ -1,0 +1,21 @@
+table, th, td {
+  border: 1px solid black;
+  padding:auto;
+}
+th {
+  background: silver;
+}
+td {
+  min-width: 100px;
+}
+#absvalue {
+  width:12px;
+  margin: 0 auto;
+}
+#table {
+  clear:right;
+  display: block;
+}
+#back {
+  text-decoration: none;
+}

@@ -1,10 +1,26 @@
 <!DOCTYPE html>
 <html>
+<head>
+  <link rel="stylesheet" type="text/css" href="css-files/arrayDemo.css">
+</head>
 <body>
-  <?php
-  $simpleArray = array();
+  <div id="back"><a href="http://localhost:8888/assignment1/arrayDemo.html">Back to form</a></div>
 
-  print "<table style=\"width:100\"> <tr>";
+  <?php
+  if (empty($_POST["arraysize"]) || empty($_POST["minvalue"]) || empty($_POST["maxvalue"])) {
+    print "Enter integer data into every field"; 
+    return ;
+  }
+  $simpleArray = array();
+  print "<div id=\"table\">";
+  print "<table style=\"width:100;\">
+  <th><math><msqrt><mi><span id=\"absvalue\" style =\"border-left: 2px solid black; border-right: 2px solid black \">x</span></mi></msqrt></math></th>
+  <th>x<sup>2</sup></th>
+  <th>x<sup>n</sup></th>
+  <th>Positive/Negative</th>
+  <th>&pi;x<sup>2</sup></th>
+  <th><sup>4</sup>&frasl;<sub>3</sub>&pi;x<sup>3</sup></th>
+  ";
   for($i = 0; $i < $_POST["arraysize"]; $i++) {
     $simpleArray[$i] = rand($_POST["minvalue"],$_POST["maxvalue"]);
     $calc1 = sqrt(abs($simpleArray[$i]));
@@ -23,15 +39,17 @@
     $calc5 = pi()*pow($simpleArray[$i],2);
     $calc6 = (4/3)*pi()*pow((abs($simpleArray[$i])/2),3);
 
-    print "<p>Square root: $calc1<p>" ;
-    print "<p>Element Squared: $calc2<p>" ;
-    print "<p>Element Raised To A Random Power: $calc3<p>" ;
-    print "<p>Sign of Random Element: $calc4<p>" ;
-    print "<p>Circle Area Calculation: $calc5<p>" ;
-    print "<p>Volume Area Calculation: $calc6<p>" ;
-    print "<hr>";
-   }
 
-  ?>
+    print "<tr>";
+    print "<td>";  print number_format($calc1, 3); print "</td>";
+    print "<td> $calc2</td>" ;
+    print "<td> $calc3</td>" ;
+    print "<td> $calc4</td>" ;
+    print "<td>";  print number_format($calc5, 3); print "</td>";
+    print "<td>";  print number_format($calc6, 3); print "</td>";
+    print "</tr>";
+   }
+   print "</div>"
+?>
 </body>
 </html>
