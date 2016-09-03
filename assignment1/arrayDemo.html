@@ -2,21 +2,24 @@
 <html>
 <head>
   <link rel="stylesheet" type="text/css" href="css-files/arrayDemo.css">
+  <title>Array Demo</title>
+  <meta charset="utf-8">
 </head>
 
 <body>
-  <form action = "arrayDemo.php" method="post">
-  <p>Array Size:</p>
-    <input type="text" name="arraysize">
-  <p>Minimum Random Value:</p>
-    <input type="text" name="minvalue">
-  <p>Maximum Random Value:</p>
-  <input type="text" name="maxvalue">
-  <div>
-    <input type="reset" value="reset">
-    <input id="submit" type="submit" value="submit">
+  <div id = "inputBox">
+    <form action = "arrayDemo.php" method="post" autocomplete="off">
+      <h1 class="loginGroup">Array Calculator</h1>
+      <input class="loginGroup" type="text" name="arraysize" placeholder="Array Size">
+      <input class="loginGroup" type="text" name="minvalue" placeholder="Minimum Random Value">
+      <input class="loginGroup" type="text" name="maxvalue" placeholder="Maximum Random Value">
+      <div class="loginGroup" id="form-buttons">
+        <input type="reset" value="Reset">
+        <input id="submit" type="submit" value="Calculate">
+      </div>
+    </form>
+  </div>
 </body>
 
-</div>
-</form>
+
 </html>

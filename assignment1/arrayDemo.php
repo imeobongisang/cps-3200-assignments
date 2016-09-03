@@ -2,6 +2,7 @@
 <html>
 <head>
   <link rel="stylesheet" type="text/css" href="css-files/arrayDemo.css">
+  <title>Array Calculation</title>
 </head>
 <body>
   <div id="back"><a href="http://localhost:8888/assignment1/arrayDemo.html">Back to form</a></div>
@@ -42,6 +43,7 @@
   <th>Positive/Negative</th>
   <th>&pi;x<sup>2</sup></th>
   <th><sup>4</sup>&frasl;<sub>3</sub>&pi;x<sup>3</sup></th>
+
   ";
   for($i = 0; $i < $_POST["arraysize"]; $i++) {
     $simpleArray[$i] = rand($_POST["minvalue"],$_POST["maxvalue"]);
