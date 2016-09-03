@@ -36,7 +36,7 @@
   print "<table style=\"width:100;\">
   <th>Column #</th>
   <th>Random #</th>
-  <th><math><msqrt><mi><span id=\"absvalue\" style =\"border-left: 2px solid black; border-right: 2px solid black \">x</span></mi></msqrt></math></th>
+  <th>&radic;<span id=\"absvalue\" style =\"border-left: 2px solid; border-right: 2px solid; text-decoration: overline; font-weight:normal; \">x</span></th>
   <th>x<sup>2</sup></th>
   <th>x<sup>n</sup></th>
   <th>Positive/Negative</th>
@@ -63,7 +63,7 @@
 
     $cNum = $i+1;
     print "<tr>";
-    print "<td style=\"background-color:rgb(189, 197, 255);min-width:20px;\"> $cNum.</td>";
+    print "<td id=\"tNum\"> $cNum.</td>";
     print "<td>"; print$simpleArray[$i]; print "</td>";
     print "<td>";  print number_format($calc1, 3); print "</td>";
     print "<td> $calc2</td>" ;
