@@ -3,14 +3,21 @@
 <head>
   <link rel="stylesheet" type="text/css" href="css-files/arrayDemo.css">
   <title>Array Calculation</title>
+  <meta charset="utf-8">
 </head>
 <body>
 
-<div id="back"><a href="http://localhost:8888/assignment1/arrayDemo.html">Back to form</a></div>
+<div id="back" onclick="location.href='arrayDemo.html'">Back To Form</div>
 
   <?php
-  if(empty($_POST["arraysize"]) || empty($_POST["minvalue"]) || empty($_POST["maxvalue"])) {
-    print "Error. Invalid form data. Please enter integer data into every field.";
+
+  function isempty($var) {
+    if($var === NULL ||$var === undefined || $var === "" || $var === array()||$var===FALSE)
+    return true;
+  }
+
+  if(isempty($_POST["arraysize"]) || isempty($_POST["minvalue"]) || isempty($_POST["maxvalue"])) {
+    print "Error. Invalid form data1. Please enter integer data into every field.";
     return false;
   }
 
