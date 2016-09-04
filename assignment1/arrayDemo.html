@@ -2,23 +2,46 @@
 <html>
 <head>
   <link rel="stylesheet" type="text/css" href="css-files/arrayDemo.css">
+  <script src="javascript-files/arrayDemo.js"></script>
   <title>Array Demo</title>
   <meta charset="utf-8">
 </head>
 
 <body>
   <div id = "inputBox">
-    <form action = "arrayDemo.php" method="post" autocomplete="off">
-      <h1 class="loginGroup">Array Calculator</h1>
-      <input class="loginGroup" type="text" name="arraysize" placeholder="Array Size">
-      <input class="loginGroup" type="text" name="minvalue" placeholder="Minimum Random Value">
-      <input class="loginGroup" type="text" name="maxvalue" placeholder="Maximum Random Value">
+    <form action = "arrayDemo.php" onsubmit="return formValidation()" method="post" autocomplete="off" name="arrayForm">
+      <div class="loginGroup">
+        <h1>Array Calculator</h1>
+      </div>
+
+      <div class="validText">
+        <span class="popuptext" id="myPopup"></span>
+      </div>
+      <div class="loginGroup">
+        <input type="text" name="arraysize" placeholder="Array Size"  autocomplete="off">
+      </div>
+
+      <div class="validText">
+        <span class="popuptext" id="myPopup2"></span>
+      </div>
+      <div class="loginGroup">
+        <input type="text" name="minvalue" placeholder="Minimum Random Value" autocomplete="off">
+      </div>
+
+      <div class="validText">
+        <span class="popuptext" id="myPopup3"></span>
+      </div>
+      <div class="loginGroup">
+        <input type="text" name="maxvalue" placeholder="Maximum Random Value" autocomplete="off">
+      </div>
+
       <div class="loginGroup" id="form-buttons">
         <input type="reset" value="Reset">
         <input id="submit" type="submit" value="Calculate">
       </div>
     </form>
   </div>
+
 </body>
 
 

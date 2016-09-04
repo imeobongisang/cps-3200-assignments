@@ -5,34 +5,38 @@
   <title>Array Calculation</title>
 </head>
 <body>
-  <div id="back"><a href="http://localhost:8888/assignment1/arrayDemo.html">Back to form</a></div>
+
+<div id="back"><a href="http://localhost:8888/assignment1/arrayDemo.html">Back to form</a></div>
 
   <?php
+  if(empty($_POST["arraysize"]) || empty($_POST["minvalue"]) || empty($_POST["maxvalue"])) {
+    print "Error. Invalid form data. Please enter integer data into every field.";
+    return false;
+  }
+
   if(!is_numeric($_POST["arraysize"])|| !is_numeric($_POST["minvalue"]) || !is_numeric($_POST["maxvalue"])) {
     print "Error. Invalid form data. Please enter integer data into every field.";
-    return;
+    return false;
   }
   if($_POST["arraysize"] < 1 ) {
     print "Please enter a valid array size.";
-    return ;
+    return false;
   }
-  if($_POST["arraysize"] > 200) {
+  if($_POST["arraysize"] > 10000) {
     print "Please enter a smaller array size.";
-    return ;
+    return false;
   }
   if($_POST["minvalue"] >$_POST["maxvalue"]) {
     print "Error. Minimum value must be larger than maximum value.";
-    return ;
+    return false;
   }
 
-  if(empty($_POST["arraysize"]) || empty($_POST["minvalue"]) || empty($_POST["maxvalue"])) {
-    print "Error. Invalid form data. Please enter integer data into every field.";
-    return ;
-  }
+
 
 
 
   $simpleArray = array();
+  print "<h1>Array Table</h1>";
   print "<div id=\"table\">";
   print "<table style=\"width:100;\">
   <th>Column #</th>
