@@ -51,7 +51,7 @@
   <th>&radic;<span id=\"absvalue\" style =\"border-left: 2px solid; border-right: 2px solid; text-decoration: overline; font-weight:normal; \">x</span></th>
   <th>x<sup>2</sup></th>
   <th>x<sup>n</sup></th>
-  <th>Positive/Negative</th>
+  <th>Pos/Neg/Zero</th>
   <th>&pi;x<sup>2</sup></th>
   <th><sup>4</sup>&frasl;<sub>3</sub>&pi;x<sup>3</sup></th>
 
@@ -72,7 +72,7 @@
       $calc4 = "zero";
     }
     $calc5 = pi()*pow($simpleArray[$i],2);
-    $calc6 = (4/3)*pi()*pow((abs($simpleArray[$i])/2),3);
+    $calc6 = (4/3)*pi()*pow((abs($simpleArray[$i])),3);
 
     $cNum = $i+1;
     print "<tr>";
