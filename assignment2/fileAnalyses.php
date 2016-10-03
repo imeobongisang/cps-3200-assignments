@@ -131,25 +131,26 @@
 
 	//************************TASK 4****************************
 	//search and replace.
-	$misspellingsKeys = array_keys($misspellings);
+	// $misspellingsKeys = array_keys($misspellings);
+	//
+	// for ($i = 0; $i < sizeof($misspellingsKeys); $i++) {
+	// 	//take the first distance as the "smallest so far"
+	// 	$word = $misspellingsKeys[$i];
+	// 	$levenDistances[$word] = //$word is the misspelled word, $wordsArrayLower[0] -> dictionary word
+	// 				array($wordsArrayLower[0], levenshtein($word, $wordsArrayLower[0]));
+	// 	for($j = 1; $j < sizeof($wordsArrayLower); $j++) {
+	// 		//if the new distance is smaller
+	// 		$word2 = $wordsArrayLower[$j]; //grab next candidate word from dictionary
+	// 		$newDist = levenshtein($word, $word2); //misspelled word and dictionary word
+	// 		if( $newDist < $levenDistances[$word][1]) {
+	// 			//replace it in the array
+	// 			$levenDistances[$word] = array($word2, $newDist);
+	// 		}
+	// 	}
+	// 	print_r($levenDistances);
+	// }
+	$levenFiles = fopen("Alice_spell_corrected.txt", "w");
 
-	for ($i = 0; $i < sizeof($misspellingsKeys); $i++) {
-		//take the first distance as the "smallest so far"
-		$word = $misspellingsKeys[$i];
-		$levenDistances[$word] = //$word is the misspelled word, $wordsArrayLower[0] -> dictionary word
-					array($wordsArrayLower[0], levenshtein($word, $wordsArrayLower[0]));
-		for($j = 1; $j < sizeof($wordsArrayLower); $j++) {
-			//if the new distance is smaller
-			$word2 = $wordsArrayLower[$j]; //grab next candidate word from dictionary
-			$newDist = levenshtein($word, $word2); //misspelled word and dictionary word
-			if( $newDist < $levenDistances[$word][1]) {
-				//replace it in the array
-				$levenDistances[$word] = array($word2, $newDist);
-			}
-		}
-		print_r($levenDistances);
-		file_put_contents("Alice_spell_corrected_missed.txt", print_r($levenDistances, true));
-	}
 	$aliceMatchesKeys = $aliceMatchesLower;
 
 	for ($i = 0; $i < sizeof($aliceMatchesKeys); $i++) {
@@ -165,10 +166,13 @@
 				//replace it in the array
 				$levenDistances[$word] = array($word2, $newDist);
 			}
+
 		}
-		print_r($levenDistances);
-		file_put_contents("Alice_spell_corrected.txt", print_r($levenDistances, true));
+		$word3 = $levenDistances[$word][0];
+		print_r($word3 . " ");
+		fputs($levenFiles,$word3 . " ");
 	}
+	fclose($levenFiles);
 
 	//****************************TASK 5
 	//The keys from the $aliceFrequency array will be the words
