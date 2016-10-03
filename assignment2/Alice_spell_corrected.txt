@@ -1,0 +1,723 @@
+Array
+(
+    [this] => Array
+        (
+            [0] => this
+            [1] => 0
+        )
+
+    [is] => Array
+        (
+            [0] => is
+            [1] => 0
+        )
+
+    [the] => Array
+        (
+            [0] => the
+            [1] => 0
+        )
+
+    [project] => Array
+        (
+            [0] => project
+            [1] => 0
+        )
+
+    [gutenberg] => Array
+        (
+            [0] => gutenberg
+            [1] => 0
+        )
+
+    [etext] => Array
+        (
+            [0] => text
+            [1] => 1
+        )
+
+    [of] => Array
+        (
+            [0] => of
+            [1] => 0
+        )
+
+    [alice] => Array
+        (
+            [0] => alice
+            [1] => 0
+        )
+
+    [in] => Array
+        (
+            [0] => in
+            [1] => 0
+        )
+
+    [wonderland] => Array
+        (
+            [0] => wonderland
+            [1] => 0
+        )
+
+    [edition] => Array
+        (
+            [0] => edition
+            [1] => 0
+        )
+
+    [should] => Array
+        (
+            [0] => should
+            [1] => 0
+        )
+
+    [be] => Array
+        (
+            [0] => be
+            [1] => 0
+        )
+
+    [labeled] => Array
+        (
+            [0] => labeled
+            [1] => 0
+        )
+
+    [txt] => Array
+        (
+            [0] => tet
+            [1] => 1
+        )
+
+    [or] => Array
+        (
+            [0] => or
+            [1] => 0
+        )
+
+    [zip] => Array
+        (
+            [0] => zip
+            [1] => 0
+        )
+
+    [being] => Array
+        (
+            [0] => being
+            [1] => 0
+        )
+
+    [officially] => Array
+        (
+            [0] => officially
+            [1] => 0
+        )
+
+    [released] => Array
+        (
+            [0] => released
+            [1] => 0
+        )
+
+    [on] => Array
+        (
+            [0] => on
+            [1] => 0
+        )
+
+    [march] => Array
+        (
+            [0] => march
+            [1] => 0
+        )
+
+    [celebration] => Array
+        (
+            [0] => celebration
+            [1] => 0
+        )
+
+    [anniversary] => Array
+        (
+            [0] => anniversary
+            [1] => 0
+        )
+
+    [please] => Array
+        (
+            [0] => please
+            [1] => 0
+        )
+
+    [take] => Array
+        (
+            [0] => take
+            [1] => 0
+        )
+
+    [a] => Array
+        (
+            [0] => a
+            [1] => 0
+        )
+
+    [look] => Array
+        (
+            [0] => look
+            [1] => 0
+        )
+
+    [at] => Array
+        (
+            [0] => at
+            [1] => 0
+        )
+
+    [important] => Array
+        (
+            [0] => important
+            [1] => 0
+        )
+
+    [information] => Array
+        (
+            [0] => information
+            [1] => 0
+        )
+
+    [header] => Array
+        (
+            [0] => header
+            [1] => 0
+        )
+
+    [we] => Array
+        (
+            [0] => we
+            [1] => 0
+        )
+
+    [encourage] => Array
+        (
+            [0] => encourage
+            [1] => 0
+        )
+
+    [you] => Array
+        (
+            [0] => you
+            [1] => 0
+        )
+
+    [to] => Array
+        (
+            [0] => to
+            [1] => 0
+        )
+
+    [keep] => Array
+        (
+            [0] => keep
+            [1] => 0
+        )
+
+    [file] => Array
+        (
+            [0] => file
+            [1] => 0
+        )
+
+    [your] => Array
+        (
+            [0] => your
+            [1] => 0
+        )
+
+    [own] => Array
+        (
+            [0] => own
+            [1] => 0
+        )
+
+    [disk] => Array
+        (
+            [0] => disk
+            [1] => 0
+        )
+
+    [keeping] => Array
+        (
+            [0] => keeping
+            [1] => 0
+        )
+
+    [an] => Array
+        (
+            [0] => an
+            [1] => 0
+        )
+
+    [electronic] => Array
+        (
+            [0] => electronic
+            [1] => 0
+        )
+
+    [path] => Array
+        (
+            [0] => path
+            [1] => 0
+        )
+
+    [open] => Array
+        (
+            [0] => open
+            [1] => 0
+        )
+
+    [for] => Array
+        (
+            [0] => for
+            [1] => 0
+        )
+
+    [next] => Array
+        (
+            [0] => next
+            [1] => 0
+        )
+
+    [readers] => Array
+        (
+            [0] => readers
+            [1] => 0
+        )
+
+    [do] => Array
+        (
+            [0] => do
+            [1] => 0
+        )
+
+    [not] => Array
+        (
+            [0] => not
+            [1] => 0
+        )
+
+    [remove] => Array
+        (
+            [0] => remove
+            [1] => 0
+        )
+
+    [welcome] => Array
+        (
+            [0] => welcome
+            [1] => 0
+        )
+
+    [world] => Array
+        (
+            [0] => world
+            [1] => 0
+        )
+
+    [free] => Array
+        (
+            [0] => free
+            [1] => 0
+        )
+
+    [plain] => Array
+        (
+            [0] => plain
+            [1] => 0
+        )
+
+    [vanilla] => Array
+        (
+            [0] => vanilla
+            [1] => 0
+        )
+
+    [texts] => Array
+        (
+            [0] => texts
+            [1] => 0
+        )
+
+    [etexts] => Array
+        (
+            [0] => texts
+            [1] => 1
+        )
+
+    [readable] => Array
+        (
+            [0] => readable
+            [1] => 0
+        )
+
+    [by] => Array
+        (
+            [0] => by
+            [1] => 0
+        )
+
+    [both] => Array
+        (
+            [0] => both
+            [1] => 0
+        )
+
+    [humans] => Array
+        (
+            [0] => humans
+            [1] => 0
+        )
+
+    [and] => Array
+        (
+            [0] => and
+            [1] => 0
+        )
+
+    [computers] => Array
+        (
+            [0] => computers
+            [1] => 0
+        )
+
+    [since] => Array
+        (
+            [0] => since
+            [1] => 0
+        )
+
+    [these] => Array
+        (
+            [0] => these
+            [1] => 0
+        )
+
+    [prepared] => Array
+        (
+            [0] => prepared
+            [1] => 0
+        )
+
+    [hundreds] => Array
+        (
+            [0] => hundreds
+            [1] => 0
+        )
+
+    [volunteers] => Array
+        (
+            [0] => volunteers
+            [1] => 0
+        )
+
+    [donations] => Array
+        (
+            [0] => donations
+            [1] => 0
+        )
+
+    [contacting] => Array
+        (
+            [0] => contacting
+            [1] => 0
+        )
+
+    [get] => Array
+        (
+            [0] => get
+            [1] => 0
+        )
+
+    [further] => Array
+        (
+            [0] => further
+            [1] => 0
+        )
+
+    [included] => Array
+        (
+            [0] => included
+            [1] => 0
+        )
+
+    [below] => Array
+        (
+            [0] => below
+            [1] => 0
+        )
+
+    [need] => Array
+        (
+            [0] => need
+            [1] => 0
+        )
+
+    [alice's] => Array
+        (
+            [0] => alice's
+            [1] => 0
+        )
+
+    [adventures] => Array
+        (
+            [0] => adventures
+            [1] => 0
+        )
+
+    [originally] => Array
+        (
+            [0] => originally
+            [1] => 0
+        )
+
+    [january] => Array
+        (
+            [0] => january
+            [1] => 0
+        )
+
+    [named] => Array
+        (
+            [0] => named
+            [1] => 0
+        )
+
+    [corrected] => Array
+        (
+            [0] => corrected
+            [1] => 0
+        )
+
+    [editions] => Array
+        (
+            [0] => editions
+            [1] => 0
+        )
+
+    [our] => Array
+        (
+            [0] => our
+            [1] => 0
+        )
+
+    [new] => Array
+        (
+            [0] => new
+            [1] => 0
+        )
+
+    [number] => Array
+        (
+            [0] => number
+            [1] => 0
+        )
+
+    [versions] => Array
+        (
+            [0] => versions
+            [1] => 0
+        )
+
+    [based] => Array
+        (
+            [0] => based
+            [1] => 0
+        )
+
+    [separate] => Array
+        (
+            [0] => separate
+            [1] => 0
+        )
+
+    [sources] => Array
+        (
+            [0] => sources
+            [1] => 0
+        )
+
+    [letter] => Array
+        (
+            [0] => letter
+            [1] => 0
+        )
+
+    [are] => Array
+        (
+            [0] => are
+            [1] => 0
+        )
+
+    [now] => Array
+        (
+            [0] => now
+            [1] => 0
+        )
+
+    [trying] => Array
+        (
+            [0] => trying
+            [1] => 0
+        )
+
+    [release] => Array
+        (
+            [0] => release
+            [1] => 0
+        )
+
+    [all] => Array
+        (
+            [0] => all
+            [1] => 0
+        )
+
+    [books] => Array
+        (
+            [0] => books
+            [1] => 0
+        )
+
+    [one] => Array
+        (
+            [0] => one
+            [1] => 0
+        )
+
+    [month] => Array
+        (
+            [0] => month
+            [1] => 0
+        )
+
+    [advance] => Array
+        (
+            [0] => advance
+            [1] => 0
+        )
+
+    [official] => Array
+        (
+            [0] => official
+            [1] => 0
+        )
+
+    [dates] => Array
+        (
+            [0] => dates
+            [1] => 0
+        )
+
+    [time] => Array
+        (
+            [0] => time
+            [1] => 0
+        )
+
+    [better] => Array
+        (
+            [0] => better
+            [1] => 0
+        )
+
+    [editing] => Array
+        (
+            [0] => editing
+            [1] => 0
+        )
+
+    [have] => Array
+        (
+            [0] => have
+            [1] => 0
+        )
+
+    [as] => Array
+        (
+            [0] => as
+            [1] => 0
+        )
+
+    [goal] => Array
+        (
+            [0] => goal
+            [1] => 0
+        )
+
+    [accomplish] => Array
+        (
+            [0] => accomplish
+            [1] => 0
+        )
+
+    [end] => Array
+        (
+            [0] => end
+            [1] => 0
+        )
+
+    [year] => Array
+        (
+            [0] => year
+            [1] => 0
+        )
+
+    [but] => Array
+        (
+            [0] => but
+            [1] => 0
+        )
+
+    [cannot] => Array
+        (
+            [0] => cannot
+            [1] => 0
+        )
+
+    [guarantee] => Array
+        (
+            [0] => guarantee
+            [1] => 0
+        )
+
+    [stay] => Array
+        (
+            [0] => stay
+            [1] => 0
+        )
+
+    [that] => Array
+        (
+            [0] => that
+            [1] => 0
+        )
+
+    [far] => Array
+        (
+            [0] => far
+            [1] => 0
+        )
+
+    [ahead] => Array
+        (
+            [0] => ahead
+            [1] => 0
+        )
+
+    [every] => Array
+        (
+            [0] => every
+            [1] => 0
+        )
+
+)
